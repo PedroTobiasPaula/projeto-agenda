@@ -1,0 +1,373 @@
+   
+    tr{
+    background-color: azure;
+    }
+
+    table{
+    border: 2px groove #1f3e6d;
+    margin-left: 40px;
+    align-items: center;
+    }
+
+    #top input{
+    margin-left: 40%;
+    margin-top: 5px;
+
+    }
+    button{
+    margin-left:0%;      
+    margin-top: 5px;
+    }
+
+    label{
+    margin-left: 50px;
+    margin-top: 5px;
+    }
+
+    select{
+    margin-left: 50px;
+    margin-top: 5px;
+    }
+
+    header{
+    height: 85px;
+    width: 100vw;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,65,230,1) 0%, rgba(31,31,157,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    filter: opacity(2px);
+    }
+
+    header img{
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 5px;
+    }
+
+    a{
+    margin-left:40px;
+    }
+
+    body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("back.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;  
+    }
+ 
+    h3{
+    text-align: center;
+    font:arial ;
+    color: white;
+    }
+    
+    nav{
+    height: 100%;
+    max-height: 100%;
+    width: 0;
+    background-color:rgba(21, 30, 155, 0.568);
+    position: absolute;
+    top: 85px;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.5s;
+    }
+ 
+    nav a{
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 100px;
+    }
+
+    /*DIV B*/
+
+    #b form{
+      margin-top: 10%;
+    }
+
+    #b button{
+    background-color: rgba(21, 30, 155, 0.288);
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 50%;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+      
+    }  
+    
+    #b{
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;  
+    }  
+    #b button:hover{
+    background-color: rgb(8, 5, 189);
+    width: 80px;
+    height: 70px;
+    transition: all 0.5s ease-in;
+    }
+    
+
+
+
+    /*DIV MENU E MENU2*/
+    
+    #menu2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+    #menu2 button{
+    background-color: rgba(21, 30, 155, 0.288);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 80px;
+    height: 70px;
+    border: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    }  
+
+    #menu2 button:hover{
+    background-color: rgb(218, 215, 250);
+    width: 80px;
+    height: 70px;
+    transition: all 0.5s ease-in;
+    }
+    
+    .menu{
+    padding: 10px;
+    position: static;
+    z-index: 1;
+    width: 10%;
+    margin-top: 10px;
+    }
+
+    .menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    /*DIV CAD*/
+  
+    #cad button{
+      margin-left: 5%;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      width: 250px;
+      height: 30px;
+      border: none;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+    }
+    
+
+    #cad select{
+      margin-left: 5%;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      width: 250px;
+      height: 30px;
+      border: none;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #cad input{
+    margin-left: 5%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #cad{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 1px;
+    margin-left: 5%;
+    margin-right: 10%;
+    }
+
+    #avancar button{
+      margin-left: 10%;
+    }
+
+    /*DIV CONTAINER E BOX*/
+
+    #container{
+    display: flex;
+    align-items: center;
+    }
+
+    .container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container2 {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-left:45%;
+    }
+
+    .box {
+    width: 550px;
+    height: 550px;
+    background: rgba(21, 30, 155, 0.288);
+    border-radius: 30px;
+    margin-left: 20%;
+    }
+
+    .box input, select,button{
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    }
+
+    #foto img{
+        width: 300px;
+        height: 300px;
+    }
+
+  /*DIVS DO RELOGIO*/
+  
+    .clock {
+    align-items: center;
+    margin-right: 85%;
+    border-radius: 3%;
+    color: #faf8f8;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+    }
+    #dataAtual{
+    font-size: 25px;
+    color: #ece3e3;
+    width: 250px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    }
+
+    /*DIV FORM*/
+
+    .form2 input, button {
+    margin-left: 27%;
+    }
+
+    #container3 input, select{
+      margin-left: 27%;
+      margin-top: 1%;
+
+    }
+    #ex input{
+      margin-left: 60%;
+    }
+
+  /*DIV MENU JS*/
+
+    .btn-open{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;}
+
+    @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+    svg {
+	  font-family: "Russo One", sans-serif;
+	  width: 100%; height: 40%;
+
+
+    }
+    svg text {
+	  animation: stroke 5s infinite alternate;
+	  stroke-width: 2;
+	  stroke: #365FA0;
+	  font-size: 60px;
+    }
+    @keyframes stroke {
+	  0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	  }
+	  70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	  80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	  100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	  }
+    }
+
+    .wrapper {opacity: 1
+    };
+
+
+
+    
+
+
